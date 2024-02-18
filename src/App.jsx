@@ -1,9 +1,11 @@
 import "./App.css";
 
+import CardsContainer from "./components/CardsContainer";
+
 function App() {
   return (
     <>
-      <h1>There Will be CARDS HERE!</h1>
+      <CardsContainer />
     </>
   );
 }
